@@ -121,6 +121,11 @@ ul li a {
   text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+#form button:hover{
+  box-shadow: -10px -10px 50px #C3B1FF, 2px 2px 15px #C3B1FF;
 }
 
 #form button i {
